@@ -2,9 +2,9 @@ package com.philosobyte.springbootexperiment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
-@ComponentScan("com.philosobyte")
+@ConfigurationPropertiesScan("com.philosobyte")
 @SpringBootApplication
 public class SpringbootexperimentApplication {
 

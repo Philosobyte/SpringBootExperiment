@@ -3,10 +3,10 @@ package com.philosobyte.springbootexperiment;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
-@WebMvcTest(controllers = ExperimentController.class)
-public class ExperimentControllerTest {
+@WebMvcTest(controllers = TrialController.class)
+public class TrialControllerTest {
     @Test
-    public void testGetProperty() {
+    public void testTrial() {
 
     }
 }
